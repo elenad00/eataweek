@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Prompt|Satisfy&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* page basics */
+h1 {
+  color: #d496a7;
+  font-family: "Satisfy", cursive;
+  font-size: 50px;
+  display: inline-block;
+  position: absolute;
+}
+
+h2 {
+  color: #a4b494;
+  font-family: "Satisfy", cursive;
+  font-size: 35px;
+  display: inline-block;
+  position: absolute;
+}
+
+h3{
+  color: #bec5ad;
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+}
+
+p{
+  color: #30343f;
+  font-family: "Prompt";
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+};
+
+.title {
+  margin: 10% 25%;
+  display: inline-block;
+  position: absolute;
+}
+
+.nav{
+  display: inline-block;
+}
+
+.nav ul{
+  list-style-type: none;
+}
+
+.nav li{
+    float: left;
+}
+.nav li button, .nav li a, .profilebuttons li a{
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  color: #FCF7FF;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #a4b494;
+  margin-left: 20px;
+  border-radius: 5px;
+  outline: none;
+  display: inline-block;
+}
+
+li button:hover, li a:hover{
+  background-color: #bec5ad;
+  cursor: pointer;
+}
+/* index page */
+.welcomemessage h2, .todaysguide h2{
+  margin: 10% -60%;
+}
+.welcomemessage h3, .todaysguide h3{
+  margin: 12% -55%;
+}
+.welcomemessage p{
+  margin: 14% -60%;
+  width: 25%;
+}
+/* today page */
+.breakfast h2{
+  margin-top: 200px;
+}
+.lunch h2, .dinner h2, .snack h2{
+  margin-top: 20px;
+}
+.breakfast button, .breakfast a, .lunch button, .lunch a, .dinner button, .dinner a, .snack button, .snack a{
+  font-family: 'Prompt';
+  color: #FCF7FF;
+  text-align: center;
+  text-decoration: none;
+
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background-color: #A4B494;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  display: inline-block;
+}
+.breakfast button, .breakfast a{
+  margin-top: 270px;
+  margin-left: 10px;
+}
+.lunch button, .lunch a, .dinner button, .dinner a, .snack button, .snack a {
+  margin-top: 80px;
+}
+.foodguide button:hover, .foodguide a:hover{
+  background-color: #bec5ad;
+  cursor: pointer;
+}
