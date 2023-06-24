@@ -3,7 +3,7 @@
 EatAWeek has been designed to be a way of tracking calorie intake, managing meal prep, and working towards health goals. Designed to make life easier, it is used in combination with a healthy lifestyle
 
 ## Development
-EatAWeek is currently in the basic first stages with rollout ready for Summer 2023. It is being developed in Java with a mobile app looking to be developed in early 2024
+EatAWeek is currently in the basic first stages with rollout ready for Summer 2023. It is being developed in Flask with a mobile app looking to be developed in early 2024
 
 ## Features
 The main three features of EatAWeek are
