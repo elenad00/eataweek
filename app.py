@@ -1,5 +1,4 @@
-from flask import Flask, render_template, redirect, url_for
-import requests
+from flask import Flask, render_template, redirect, url_for, request
 from static.scripts.scripts import * 
 app = Flask(__name__)
 
@@ -30,13 +29,13 @@ def meal(meal):
 
 @app.route('/<day>/<meal>/additem', methods=['GET','POST'])
 def additem(day, meal):
-  if requests.method == 'GET':
+  if request.method == 'GET':
     if meal not in ['breakfast','lunch','dinner','snack']:
       return redirect(url_for('error'))
     return render_template('additem.html', day = day, meal=meal)
 
   else:
-    search_criteria = requests.form.get('item')
+    search_criteria = request.form.get('item')
     results = doSearch(search_criteria)
 
 
