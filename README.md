@@ -1,12 +1,12 @@
-# Welcome to Eat A Week
+# Welcome to EatAWeek
 ## Usage 
-Eat A Week has been designed to be a way of tracking calorie intake, managing meal prep, and working towards health goals. Designed to make life easier, it is used in combination with a healthy lifestyle
+EatAWeek has been designed to be a way of tracking calorie intake, managing meal prep, and working towards health goals. Designed to make life easier, it is used in combination with a healthy lifestyle
 
 ## Development
-Eat A Week is currently in the basic first stages with rollout ready for Summer 2020. It is being developed in Java with a mobile app looking to be developed in early 2021
+EatAWeek is currently in the basic first stages with rollout ready for Summer 2023. It is being developed in Java with a mobile app looking to be developed in early 2024
 
 ## Features
-The main three features of Eat A Week are
+The main three features of EatAWeek are
 * Calorie and macro tracking
 * Weekly meal prep, including shopping lists
 * Support on how to work better towards health goals
