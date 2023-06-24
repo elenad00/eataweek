@@ -32,11 +32,12 @@ def additem(day, meal):
   if request.method == 'GET':
     if meal not in ['breakfast','lunch','dinner','snack']:
       return redirect(url_for('error'))
-    return render_template('additem.html', day = day, meal=meal)
+    return render_template('additem.html', day = day, meal=meal, results=False)
 
   else:
     search_criteria = request.form.get('item')
     results = doSearch(search_criteria)
+    return render_template('additem.html', day = day, meal=meal, results = results)
 
 
 @app.route('/login')

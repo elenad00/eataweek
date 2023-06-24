@@ -5,7 +5,7 @@ class Item():
 def getToday():
     return 1600, [0,0,0]
 
-def doSearch():
+def doSearch(item):
     # look for item in db
     # return item details
     return 'carrots'
