@@ -1,30 +1,28 @@
 {% extends 'base.html' %}
 
-
 {% block content %}
 
-
 <div class ="todaysguide">
-    <h2> Today's Plan </h2>
-    <h3> Everything On The Plan For Today </h3>
+  <h2> Today's Plan </h2>
+  <h3> Everything On The Plan For Today </h3>
 </div>
 
-<div class = foodguide>
+<div class = "foodguide">
 	<div class = "breakfast">
     <h2> Breakfast </h2>
-    <a href=todaysbreakfast name="todaysbreakfast" id=todaysbreakfast> Add Breakfast </a>
+    <a href=/today/breakfast name="breakfast" id=breakfast> Add Breakfast </a>
 	</div>
 	<div class = "lunch">
     <h2> Lunch </h2>
-    <a href=todayslunch name="todayslunch" id=todayslunch> Add Lunch </a>
+    <a href=/today/lunch name="lunch" id=lunch> Add Lunch </a>
 	</div>
 	<div class = "dinner">
     <h2> Dinner </h2>
-    <a href=todaysdinner name="todaysdinner" id=todaysdinner> Add Dinner </a>
+    <a href=/today/dinner name="dinner" id=dinner> Add Dinner </a>
 	</div>
 	<div class = "snack">
     <h2> Snack </h2>
-    <a href=todayssnack name="todayssnack" id=todayssnack> Add Snack </a>
+    <a href=/today/snack name="snack" id=snack> Add Snack </a>
 	</div>
 </div>
 
