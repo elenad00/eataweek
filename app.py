@@ -1,5 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request
-from static.scripts.scripts import * 
+from static.scripts.grocerystore import * 
 app = Flask(__name__)
 
 @app.route('/')
