@@ -1,0 +1,55 @@
+each user has:
+- a userid (an 8 character randint)
+-- encrypted --
+- a username (what they are displayed as)
+- an email (how they log in)
+- a password (how the log in)
+----       ----
+
+each fitness profile has:
+- a profileid (an 8 character randint)
+- user.userid
+- a daily calorie target
+- a goal weight
+- a current weight
+
+each item has:
+- an itemid (an 8 character randint)
+- a name 
+- a calorie count
+- a portion size
+- various macros
+
+each meal has:
+- a mealid (an 8 character randint)
+- user.userid
+- a name
+- a date
+
+each mealitem has:
+- a mealitemid (an 8 character randint)
+- meal.mealid
+- item.itemid
+- a quantity
+
+each recipe has:
+- a recipeid (an 8 character randint)
+- user.userid
+- a name
+- instructions (null)
+
+each recipeitem has:
+- a recipeingredientid (an 8 character randint)
+- recipe.recipeid 
+- item.itemid
+- a quantity
+
+each pantry has:
+- a pantryid (an 8 character randint)
+- user.userid
+
+each pantryitem has:
+- a pantryitemid (an 8 character randint)
+- pantry.pantryid
+- item.itemid
+- an amount
